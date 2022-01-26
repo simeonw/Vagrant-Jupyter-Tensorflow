@@ -1,0 +1,9 @@
+.vagrant
+**/logs
+*.log
+ubuntu-xenial-16.04-cloudimg-console.log
+vagrant
+projects/*
+projects/**
+libs/*
+Miniconda3-latest-Linux-x86_64.sh
