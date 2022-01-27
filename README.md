@@ -1,4 +1,4 @@
-# Vagrant Jupiter Box
+# Vagrant Jupyter Box
 
 This is a simple Vagrant virtual machine. It contains a setup for running Jupyter notebook with Python 3. The setup includes the [Miniconda Python distribution](https://www.anaconda.com/distribution/) which means a lot of data science packages like [NumPy](http://www.numpy.org/), [pandas](https://pandas.pydata.org/), [matplotlib](https://matplotlib.org/), [Tensorflow](https://www.tensorflow.org/install) and many more are readily included in the setup. 
 
@@ -13,7 +13,7 @@ You need the following installed on your computer:
 - Copy `Vagrantfile` and the `scripts` folder to the directory you'd like to place your files.
 - To set up the virtual machine, run the shell command `vagrant up` in this folder.
 - Configuring the virtual machine should take about 10 minutes.
-- Point a browser to [http://localhost:8000](http://localhost:8000)
+- Point a browser to [http://localhost:8888](http://localhost:8888)
 
 ### Features
 
@@ -25,9 +25,9 @@ You need the following installed on your computer:
 
 ### Configuration
 
-- **Optional:** You can log into the virtual machine by calling `vagrant ssh` - in order to isntall other python packages etc. The default Jupyter notebooks also come with various libraries pre-configured enabling the install of pip packages directly.
+- **Optional:** You can log into the virtual machine by calling `vagrant ssh` - in order to install other python packages etc. The default Jupyter notebooks also come with various libraries pre-configured enabling the install of pip packages directly.
 - List installed boxes with`vagrant global-status`
-- Provieions with `vagrant up --provision`
+- Provision with `vagrant up --provision`
 - Delete boxes with`vagrant destroy boxid`.
 
 **That's it.** 
